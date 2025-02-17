@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 thg 10, 2024, 16:43:52
+    Author     : Administrator
+*/
+/* Định dạng cho popup */
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 1200px;
+    height: 90%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 10px;
+    background-color:#99FFCC;
+}
+
+#popup .popup-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#popup h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#popup form {
+    margin: 20px 0;
+}
+
+#popup button {
+    cursor: pointer;
+}
+
+#popup button#closePopup {
+    margin-top: 20px;
+}
+
+#applyButton {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

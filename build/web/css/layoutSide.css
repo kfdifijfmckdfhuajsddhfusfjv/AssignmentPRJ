@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 thg 10, 2024, 20:45:19
+    Author     : Administrator
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#layoutSidenav {
+    display: flex;
+    height: 100vh; /* Chiều cao toàn màn hình */
+}
+
+#layoutSidenav_nav {
+    flex-shrink: 0; /* Ngăn không cho sidebar co lại */
+    height: 100%; /* Đặt chiều cao 100% để trải dài */
+}
+
+#layoutSidenav .sb-sidenav-menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#layoutSidenav .nav {
+    flex-grow: 1; /* Giúp phần nội dung menu có thể chiếm toàn bộ chiều cao còn lại */
+}
+.divider {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Đường kẻ phân chia */
+    margin: 15px 0; /* Khoảng cách trên và dưới đường kẻ */
+}
+
+.sb-sidenav-menu .nav-link {
+    padding: 10px 15px;
+}
+
+.sb-sidenav-menu-heading {
+    padding: 10px 15px;
+}

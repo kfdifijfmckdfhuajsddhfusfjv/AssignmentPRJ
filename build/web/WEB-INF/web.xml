@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <filter>
+        <filter-name>CurrentWebsite</filter-name>
+        <filter-class>Filter.CurrentWebsite</filter-class>
+    </filter>
+    <filter>
+        <filter-name>PreventForCruiter</filter-name>
+        <filter-class>Filter.PreventForCruiter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>RoleFilter</filter-name>
+        <filter-class>Filter.RoleFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PreventForCruiter</filter-name>
+        <url-pattern>/404.jsp</url-pattern>
+        <url-pattern>/cvManager</url-pattern>
+        <url-pattern>/listSavejob</url-pattern>
+        <url-pattern>/CVupload</url-pattern>
+        <url-pattern>/listApplicationForSeeker</url-pattern>
+        <url-pattern>/savejob</url-pattern>
+        <url-pattern>/Apply</url-pattern>
+        <url-pattern>/CVupload.jsp</url-pattern>
+        <url-pattern/>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>CurrentWebsite</filter-name>
+        <url-pattern>/404.jsp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>RoleFilter</filter-name>
+        <url-pattern>/cvManager</url-pattern>
+        <url-pattern>/listSavejob</url-pattern>
+        <url-pattern>/CVupload</url-pattern>
+        <url-pattern>/listApplicationForSeeker</url-pattern>
+        <url-pattern>/savejob</url-pattern>
+        <url-pattern>/Apply</url-pattern>
+        <url-pattern>/listJobRecruiter</url-pattern>
+    </filter-mapping>
+</web-app>

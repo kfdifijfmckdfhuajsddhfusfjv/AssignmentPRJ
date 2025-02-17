@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.topcv-section{
+    background-image: url('images/backgroundimages.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.topcv-section .display-4 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.topcv-section p {
+    font-size: 1.2rem;
+}
+

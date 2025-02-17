@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 thg 10, 2024, 15:10:58
+    Author     : Administrator
+*/
+/* Kiểu dáng chung cho thẻ */
+.job-card {
+    background-color: #cef0d7; /* Màu nền tối */
+    border-radius: 15px; /* Góc bo tròn */
+    width: 100%; /* Chiều rộng tùy chỉnh */
+    text-align: center;
+    padding: 3px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Kiểu dáng cho icon */
+.job-icon {
+    background-color: white; /* Màu nền cho icon */
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.job-icon img {
+    width: 50px; /* Kích thước icon */
+    height: 50px;
+}
+
+/* Tiêu đề công việc */
+.job-title {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Số lượng việc làm */
+.job-count {
+    color: #3cfdc4; /* Màu xanh nhạt cho số lượng việc làm */
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+

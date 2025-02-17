@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="AssignmentPRJ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jakarta.servlet.jsp.jstl-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sqljdbc4-3.0.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/SWP391/apache-tomcat-10.1.34/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/SWP391/apache-tomcat-10.1.34/lib" recursive="false" />
+  </library>
+</component>

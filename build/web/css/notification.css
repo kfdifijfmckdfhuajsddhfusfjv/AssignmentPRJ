@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 thg 10, 2024, 12:35:44
+    Author     : Administrator
+*/
+.notification-button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Notification dropdown styles */
+.notification-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    background-color: #daedde;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #008d5d;
+    z-index: 1;
+}
+
+.notification-dropdown::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: ;
+}
+
+.notification-header {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #daedde;
+    border-radius: 8px 8px 0 0;
+}
+
+.notification-item {
+    padding: 10px;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: flex-start;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-item .date-icon {
+    background-color: #daedde;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.notification-item-content {
+    max-width: 230px;
+}
+
+.notification-item-content h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.notification-item-content p {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+/* Show the dropdown when hovering */
+.notification-button:hover .notification-dropdown {
+    display: block;
+}
